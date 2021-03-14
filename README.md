@@ -1,4 +1,4 @@
-# Adroid-Usb-Serial
+# Android-Usb-Serial
 
 Пример работы USB Serial Android Xamarin.
 
