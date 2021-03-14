@@ -146,11 +146,15 @@ namespace UsbSerial
             {
                 selectedPortTest = adapter.GetItem(i);
 
+                // Поиск устройства
+
                 if (selectedPortTest.Driver.Device.VendorId == 6790 && selectedPortTest.Driver.Device.DeviceId == 1003) {
 
                     ItemPort = i;
                 
                 } 
+
+                //
 
             }
 
